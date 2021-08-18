@@ -1,6 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FavoriteFragment">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switchBackStack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/use_backstack"
+        android:textSize="@dimen/textSizeRadioButton" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/radioButtonAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textSizeRadioButton"
+            android:checked="true"
+            android:text="@string/add" />
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/radioButtonReplace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textSizeRadioButton"
+            android:checked="true"
+            android:text="@string/replace" />
+
+
+    </RadioGroup>
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switchBackAsRemove"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BackAsRemove"
+        android:textSize="@dimen/textSizeSwitch" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switchDeleteBeforeAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="delete before add"
+        android:textSize="@dimen/textSizeSwitch" />
+
+
+</LinearLayout>
