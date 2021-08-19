@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/buttonMain"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="main"
+            android:layout_weight="1"
+            android:textSize="12sp"/>
+
+        <Button
+            android:id="@+id/buttonBack"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="back"
+            android:layout_weight="1"
+            android:textSize="12sp"/>
+
+        <Button
+            android:id="@+id/buttonFavorite"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="favorite"
+            android:layout_weight="1"
+            android:textSize="12sp"/>
+
+        <Button
+            android:id="@+id/buttonSettings"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="settings"
+            android:layout_weight="1"
+            android:textSize="12sp"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+
+
+
+
+
+
+</LinearLayout>
