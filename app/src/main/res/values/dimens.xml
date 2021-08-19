@@ -2,4 +2,5 @@
 <resources>
     <dimen name="textSizeSwitch">21sp</dimen>
     <dimen name="textSizeRadioButton">20sp</dimen>
+    <dimen name="heder_height">200dp</dimen>
 </resources>
