@@ -3,4 +3,6 @@
     <dimen name="textSizeSwitch">21sp</dimen>
     <dimen name="textSizeRadioButton">20sp</dimen>
     <dimen name="heder_height">200dp</dimen>
+    <dimen name="textSizeMain">18sp</dimen>
+    <dimen name="textSizeFavorite">35sp</dimen>
 </resources>

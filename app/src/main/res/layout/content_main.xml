@@ -12,19 +12,21 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <Button
-            android:id="@+id/buttonMain"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:text="main"
-            android:layout_weight="1"
-            android:textSize="12sp"/>
+
 
         <Button
             android:id="@+id/buttonBack"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="back"
+            android:text="Назад"
+            android:layout_weight="1"
+            android:textSize="12sp"/>
+
+        <Button
+            android:id="@+id/buttonMain"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Задачи"
             android:layout_weight="1"
             android:textSize="12sp"/>
 

@@ -4,15 +4,15 @@
 
     <item
         android:id="@+id/action_settings"
-        android:title="settings"
+        android:title="@string/popupTitleSettings"
         app:showAsAction="never"/>
     <item
         android:id="@+id/action_main"
-        android:title="main"
+        android:title="@string/popupTitleMain"
         app:showAsAction="always"/>
     <item
         android:id="@+id/action_favorite"
-        android:title="favorite"
+        android:title="@string/popupTitleFavorite"
         app:showAsAction="never"/>
 
 </menu>

@@ -3,4 +3,14 @@
     <string name="use_backstack">use backstack</string>
     <string name="replace">Replace</string>
     <string name="add">Add</string>
+    <string name="task1">Заменить уплотнители на дверях авто</string>
+    <string name="task2">Раскопать канашку</string>
+    <string name="task3">Доделать франтон</string>
+    <string name="textFavorite">Favorite</string>
+    <string name="popupTitleSettings">settings</string>
+    <string name="popupTitleMain">Задачи</string>
+    <string name="popupTitleFavorite">favorite</string>
+    <string name="drawerTitleSettings">settings</string>
+    <string name="drawerTitleMain">Задачи</string>
+    <string name="drawerTitleFavorite">favorite</string>
 </resources>

@@ -8,7 +8,7 @@
         app:showAsAction="never"/>
     <item
         android:id="@+id/action_main"
-        android:title="main"
+        android:title="Задачи"
         app:showAsAction="always"/>
     <item
         android:id="@+id/action_favorite"
